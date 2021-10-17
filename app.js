@@ -60,7 +60,7 @@ const options={
 app.post("/failure", function(req, res){
   res.redirect("/")
 })
-app.listen(process.env.PORT|| 3000, function(){
+app.listen(process.env.PORT|| 3000 , function(){
   console.log(`Server is running at 3000`);
 });
 //api key
